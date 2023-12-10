@@ -47,6 +47,8 @@ header img {
     gap: 5px;
 }
 .title {
+    display: flex;
+    align-items: center;
     font-size: 1.6rem;
     gap: 15px;
 }
