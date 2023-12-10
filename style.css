@@ -33,11 +33,12 @@ header img {
     gap: 10px;
     position: absolute;
     top: 50%;
-    width: 400px;
+    width: 430px;
     height: auto;
     background-color: var(--White);
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
 .content{
@@ -45,15 +46,26 @@ header img {
     place-items: center;
     justify-content: space-between;
     gap: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.content:hover{
+    color: #AD28EB;
 }
 .title {
     display: flex;
     align-items: center;
     font-size: 1.6rem;
+    line-height: 1.9rem;
     gap: 15px;
 }
 .paragraph{
     display: none;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    padding-top: 10px;
+    color: var(--Grayish-purple);
 }
 
 .icon-minus{
